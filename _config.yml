@@ -19,8 +19,6 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Raja Moreno
-description: >-
-  Personal website of Raja Moreno.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rajamoreno.github.io" # the base hostname & protocol for your site
 twitter_username: RajaMoreno3
