@@ -18,6 +18,6 @@ Francis Rhys Ward, Teun van der Weij, Hanna Gabor, Sam Martin, **Raja Mehta More
 
 Rauno Arike, **Raja Mehta Moreno**, Rohan Subramani, Shubhorup Biswas, Francis Rhys Ward
 
-*ICLR 2026 (under review)*
+*ICML 2026 (under review)*
 
-arXiv imminent :)
+[arXiv](https://arxiv.org/abs/2601.21112)
