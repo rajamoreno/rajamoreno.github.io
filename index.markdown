@@ -15,7 +15,7 @@ Welcome! My name is Raja Moreno (pronounced "rah-jah moh-ray-noh").
 <br>
 <br>
 
-<a href="/about/">About me</a> · <a href="/research/">Research</a> · <a href="https://github.com/rajamoreno">GitHub</a> · <a href="https://www.linkedin.com/in/raja-moreno/">LinkedIn</a>
+<a href="/about/">About me</a> · <a href="/research/">Research</a> · <a href="/blog/">Bog</a> · <a href="https://github.com/rajamoreno">GitHub</a> · <a href="https://www.linkedin.com/in/raja-moreno/">LinkedIn</a>
 
 </div>
 </div>

@@ -27,6 +27,10 @@ linkedin_username: raja-moreno
 
 # Build settings
 theme: minima
+header_pages:
+  - about.markdown
+  - blog.markdown
+  - research.markdown
 plugins:
   - jekyll-feed
 
