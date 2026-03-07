@@ -4,5 +4,8 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
+# Personal writing (local only)
+_personal/
+
 # macOS
 .DS_Store
