@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "axes of control"
-date: 2026-03-06
+date: 2026-03-07
 ---
 
 epistemic status: helpful framing device for me right now.
