@@ -44,7 +44,7 @@ def make_base_plot():
     ax.text(100, -4, r"100", fontsize=9, ha="center", va="top")
     ax.text(-4, 100, r"100", fontsize=9, ha="right", va="center")
 
-    ax.set_xlabel(r"egregious", fontsize=14)
+    ax.set_xlabel(r"harmful", fontsize=14)
     ax.set_ylabel(r"incriminating", fontsize=14)
 
     fig.tight_layout()
@@ -155,7 +155,7 @@ BERMUDA_RED = "#B22222"
 
 
 def add_danger_cluster(ax, faded=False):
-    """Cluster of bright red dots in the lower-right: egregious but not incriminating."""
+    """Cluster of bright red dots in the lower-right: harmful but not incriminating."""
     rng = np.random.RandomState(42)
     n_dots = 10
     cx, cy = 80, 20
@@ -176,7 +176,7 @@ def add_danger_cluster(ax, faded=False):
 
     bbox = (dict(facecolor="white", edgecolor="none", alpha=0.85, pad=2)
             if faded else None)
-    ax.text(cx, 25, "egregious actions that are not very" "\n"
+    ax.text(cx, 25, "harmful actions that are not very" "\n"
             "incriminating to current monitors",
             fontsize=8.5, color=BERMUDA_RED, ha="center", va="bottom",
             zorder=6, bbox=bbox)
@@ -219,18 +219,18 @@ def add_lattice_dots(ax):
 
 
 SKITTISH_PINK = "#D4607A"
-STOIC_BLUE = "#5B7FA5"
+PANGLOSSIAN_BLUE = "#5B7FA5"
 
 
 def add_monitors(ax):
-    """Scatter dots for skittish (y~90) and stoic (y~10) monitors."""
+    """Scatter dots for skittish (y~90) and panglossian (y~10) monitors."""
     rng = np.random.RandomState(17)
     n_dots = 45
 
     # Label exclusion zones (x_center, y_center, half_width, half_height)
     labels = [
         (50, 96, 28, 4),  # skittish label
-        (50, 4, 28, 4),   # stoic label
+        (50, 4, 28, 4),   # panglossian label
     ]
 
     def in_label_zone(x, y):
@@ -252,14 +252,14 @@ def add_monitors(ax):
     sty = rng.normal(10, 4, n_dots)
     sty = np.clip(sty, 1, 25)
     mask = [not in_label_zone(x, y) for x, y in zip(stx, sty)]
-    ax.scatter(stx[mask], sty[mask], color=STOIC_BLUE, alpha=0.5, s=25,
+    ax.scatter(stx[mask], sty[mask], color=PANGLOSSIAN_BLUE, alpha=0.5, s=25,
                edgecolors="none", zorder=3)
 
     # Labels
     ax.text(50, 96, r"skittish monitor: always scared",
             fontsize=9, color=SKITTISH_PINK, ha="center", va="center", zorder=4)
-    ax.text(50, 4, r"stoic monitor: not scared enough",
-            fontsize=9, color=STOIC_BLUE, ha="center", va="center", zorder=4)
+    ax.text(50, 4, r"panglossian monitor: not scared enough",
+            fontsize=9, color=PANGLOSSIAN_BLUE, ha="center", va="center", zorder=4)
 
 
 def add_lift_arrow(ax):
@@ -284,14 +284,14 @@ def add_lift_arrow(ax):
                zorder=7, edgecolors="none")
     # Label along the dashed line
     ax.text(cmft_x - 3, (cmft_y + cmft_x) / 2 - 10,
-            "applying elbow grease" "\n" "makes CMFT look as" "\n"
-            "incriminating as it is",
+            "applying elbow grease" "\n" "makes CMFT look" "\n"
+            "as harmful as it is",
             fontsize=7, color=OCEAN_BLUE, ha="right", va="center",
             zorder=6)
 
 
 def make_cost_plot():
-    """New axes: x = egregious (0-100), y = cost to prevent (log scale)."""
+    """New axes: x = harmful (0-100), y = cost to prevent (log scale)."""
     import matplotlib.transforms as transforms
 
     fig, ax = plt.subplots(figsize=(5, 5))
@@ -349,7 +349,7 @@ def make_cost_plot():
         clip_on=False,
     )
 
-    ax.set_xlabel(r"egregious", fontsize=14)
+    ax.set_xlabel(r"harmful", fontsize=14)
     ax.set_ylabel(r"cost to prevent", fontsize=14)
 
     fig.tight_layout()
