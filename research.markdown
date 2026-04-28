@@ -6,13 +6,13 @@ permalink: /research/
 
 tl;dr: If it runs on Inspect, and it investigates naughty AI agent behavior on tasks relevant to automating AI R&D, I'm interested.
 
-**CTRL-ALT-DECEIT: Sabotage Evaluations for Automated AI R&D**
+**What Should Frontier AI Developers Disclose About Internal Deployments?**
 
-Francis Rhys Ward, Teun van der Weij, Hanna Gabor, Sam Martin, **Raja Mehta Moreno**, Harel Lidar, Louis Makower, Thomas Jodrell, Lauren Robson
+Jacob Charnock, **Raja Mehta Moreno**, Justin Miller, William L. Anderson
 
-*NeurIPS 2025 (Spotlight)*
+*TAIGR @ ICML 2026 (under review)*
 
-[arXiv](https://arxiv.org/abs/2511.09904)
+[arXiv](https://arxiv.org/abs/2604.23065)
 
 **How Does Information Access Affect LLM Monitors' Ability to Detect Sabotage?**
 
@@ -21,3 +21,11 @@ Rauno Arike, **Raja Mehta Moreno**, Rohan Subramani, Shubhorup Biswas, Francis R
 *ICML 2026 (under review)*
 
 [arXiv](https://arxiv.org/abs/2601.21112)
+
+**CTRL-ALT-DECEIT: Sabotage Evaluations for Automated AI R&D**
+
+Francis Rhys Ward, Teun van der Weij, Hanna Gabor, Sam Martin, **Raja Mehta Moreno**, Harel Lidar, Louis Makower, Thomas Jodrell, Lauren Robson
+
+*NeurIPS 2025 (Spotlight)*
+
+[arXiv](https://arxiv.org/abs/2511.09904)
