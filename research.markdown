@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-tl;dr: If it runs on Inspect, and it investigates naughty AI agent behavior on tasks relevant to automating AI R&D, I'm interested.
+tl;dr: If it investigates naughty AI agent behavior on tasks relevant to automating AI R&D, I'm interested.
 
 **What Should Frontier AI Developers Disclose About Internal Deployments?**
 
@@ -18,7 +18,7 @@ Jacob Charnock, **Raja Mehta Moreno**, Justin Miller, William L. Anderson
 
 Rauno Arike, **Raja Mehta Moreno**, Rohan Subramani, Shubhorup Biswas, Francis Rhys Ward
 
-*ICML 2026 (under review)*
+*ICML 2026, ICLR AIWILD & Trustworthy AI Workshops*
 
 [arXiv](https://arxiv.org/abs/2601.21112)
 
