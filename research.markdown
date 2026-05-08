@@ -4,8 +4,6 @@ title: Research
 permalink: /research/
 ---
 
-tl;dr: If it investigates naughty AI agent behavior on tasks relevant to automating AI R&D, I'm interested.
-
 **What Should Frontier AI Developers Disclose About Internal Deployments?**
 
 Jacob Charnock, **Raja Mehta Moreno**, Justin Miller, William L. Anderson
