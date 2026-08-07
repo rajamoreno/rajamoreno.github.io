@@ -8,7 +8,7 @@ permalink: /research/
 
 Jacob Charnock, **Raja Mehta Moreno**, Justin Miller, William L. Anderson
 
-*TAIGR @ ICML 2026 (under review)*
+*TAIGR @ ICML 2026*
 
 [arXiv](https://arxiv.org/abs/2604.23065)
 
